@@ -1,0 +1,216 @@
+body
+{
+background: #C93968;
+color: #F8F4E8;
+}
+
+
+/* --- HEADER --- */
+
+header
+{
+background: #00A5B6;
+}
+
+header h1
+{
+font-size: 60px;
+font-weight: 600;
+letter-spacing: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	header h1
+	{
+	font-size: 30px;
+	padding: 0 0 15px 0;
+	}
+
+}
+
+header img
+{
+width: 200px;
+padding: 0 0 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+	header img
+	{
+	width: 140px;
+	}
+
+}
+
+header p
+{
+font-size: 22px;
+line-height: 28px;
+font-weight: 600;
+max-width: 70%;
+margin: 0 auto;
+}
+
+@media only screen and (max-width: 1090px) {
+
+	header p
+	{
+	max-width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	header p
+	{
+	font-size: 18px;
+	line-height: 22px;
+	}
+
+}
+
+
+header ul, header li
+{
+display: none;
+}
+
+/* --- MAIN --- */
+
+section
+{
+text-align: left;
+display: inline-block;
+width: 24%;
+vertical-align: top;
+padding: 4%;
+max-width: 600px;
+margin: 0 auto;
+}
+
+@media only screen and (max-width: 750px) {
+
+
+	section#nav
+	{
+	display: block;
+	width: 80%;
+	padding: 0 0 15px 0;
+	}
+	
+	section#us,
+	section#hotel
+	{
+	width: 40%;
+	padding: 4%;
+	}
+
+}
+
+@media only screen and (max-width: 395px) {
+
+	section#us,
+	section#hotel
+	{
+	display: block;
+	width: 80%;
+	padding: 0 0 40px 0;
+	}
+	
+}
+
+section h1
+{
+font-size: 40px;
+}
+
+@media only screen and (max-width: 781px) {
+
+	section h1
+	{
+	font-size: 26px;
+	}
+
+}
+
+section img
+{
+width: 94%;
+padding: 3%;
+background: white;
+margin: 0 0 10px 0;
+}
+
+@media only screen and (max-width: 990px) {
+
+	section img
+	{
+	max-width: 200px;
+	}
+
+}
+
+section ul li
+{
+font-size: 40px;
+border-bottom: white solid 1px;
+margin: 0 0 20px 0;
+padding: 0 0 10px 0;
+text-align: center;
+}
+
+section ul li:last-child
+{
+border-bottom: none;
+}
+
+@media only screen and (max-width: 990px) {
+
+	section ul li
+	{
+	font-size: 30px;
+	}
+
+}
+
+section ul li.subnav
+{
+display: none;
+}
+
+section ul li a
+{
+text-decoration: none
+}
+
+
+/* --- FOOTER --- */
+
+footer
+{
+background: yellow;
+color: #101010;
+}
+
+/* --- QUICK MAPS --- */
+
+aside
+{
+display: none;
+}
+
+@media only screen and (max-width: 395px) {
+
+	aside
+	{
+	display: block;
+	background: #F8F4E8;
+	padding: 5px;
+	text-align: center;
+	color: black;
+	}
+	
+}

@@ -1,0 +1,93 @@
+body
+{
+font-family: 'Josefin Sans', sans-serif;
+}
+
+p
+{
+font-size: 18px;
+line-height: 20px;
+}
+
+
+a
+{
+color: inherit;
+}
+
+@media only screen and (max-width: 395px) {
+
+	.expanded
+	{
+	display: none;
+	}
+
+}
+
+/* --- HEADER --- */
+
+
+header
+{
+text-align: center;
+padding: 50px;
+color: #F8F4E8;
+margin: 0 0 20px 0;
+}
+
+
+header h2
+{
+font-size: 40px;
+font-weight: 600;
+padding: 0 0 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+	header h2
+	{
+	font-size: 25px;
+	}
+
+}
+
+
+
+/* --- FOOTER --- */
+
+footer
+{
+padding: 50px;
+text-align: center;
+border-radius: 15px;
+margin: 15px;
+}
+
+@media only screen and (max-width: 405px) {
+
+	footer
+	{
+	padding: 25px;
+	}
+
+}
+
+footer a
+{
+text-decoration: none;
+}
+
+footer h4
+{
+font-size: 30px;
+}
+
+@media only screen and (max-width: 405px) {
+
+	footer h4
+	{
+	font-size: 25px;
+	}
+
+}
